@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Image, Text, StyleSheet} from 'react-native';
-const defaultImg = require('../assets/defaultImg.jpg');
+const defaultImg = require('../assets/defaultImg.png');
 const bluePlus = require('../assets/bluePlus.jpg');
 
 const MyStory = () => {

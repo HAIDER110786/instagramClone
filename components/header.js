@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
-const cameraImg = require('../assets/Camera.png');
-const directMessageImg = require('../assets/DirectMessage.png');
+const cameraImg = require('../assets/camera.png');
+const directMessageImg = require('../assets/directMessage.png');
 
 const Header = () => {
     return(
@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   headerText:{
       color:'#000',
       fontSize:25,
+    //   font:'Billabong'
   },
   cameraImage:{
       height:35,
